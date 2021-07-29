@@ -1,2 +1,2 @@
 # FIT3143
-Lab Tutorial and Assignments
+Lab, Tutorial and Assignments
