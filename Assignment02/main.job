@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH --job-name=main         ### name of the job
+#SBATCH --time=00:30:00         ### time upper bound
+#SBATCH --mem=32G               ### memory
+#SBATCH --ntasks=10             ### total number of processes
+#SBATCH --cpus-per-task=3       ### number of threads
+#SBATCH --ntasks-per-node=5     ### number of processes per node
+#SBATCH --partition=short,comp,gpu
+
+#SBATCH --output=mpi.%j.out
+
+module load openmpi/3.1.4-mlx
+
+make
+srun WSN 3 3 6000 5
+
+exit 0
