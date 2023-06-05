@@ -15,3 +15,5 @@ the MonARCH (Monash Advanced Research
 Computing Hybrid) Cluster and analyze the
 performance of our architecture with the tabulated
 results generated.
+
+## Report: https://drive.google.com/drive/folders/1H2y6mv7_ikXui-c5bCRoLyJ9LQS0sT7W?usp=sharing
