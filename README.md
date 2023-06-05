@@ -1,4 +1,5 @@
 # Assignment01 - Simulation of Vector Clock (POC)
+Proof of concept of Vector Clock in Python 
 
 # Assignment02 - TSUNAMI DETECTION IN A DISTRIBUTED WSN
 In this project, we simulate and examine the
